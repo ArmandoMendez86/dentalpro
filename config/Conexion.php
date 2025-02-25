@@ -1,12 +1,16 @@
 <?php
 class Conexion
 {
-    private static $host = "localhost";
+    /* private static $host = "localhost";
     private static $dbname = "clinica";
     private static $usuario = "root"; 
-    private static $password = "linux"; 
+    private static $password = "linux";  */
+    private static $host = "localhost";
+    private static $dbname = "u916760597_dentalpro";
+    private static $usuario = "u916760597_dentalpro"; 
+    private static $password = "Dentalpro861215#-"; 
 
-    
+
     private static $conexion = null;
 
     public static function getConexion()
