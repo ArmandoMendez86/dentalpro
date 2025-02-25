@@ -3,8 +3,10 @@ class Conexion
 {
     private static $host = "localhost";
     private static $dbname = "clinica";
-    private static $usuario = "root"; // Cambiar si es necesario
-    private static $password = "linux"; // Cambiar si es necesario
+    private static $usuario = "root"; 
+    private static $password = "linux"; 
+
+    
     private static $conexion = null;
 
     public static function getConexion()
